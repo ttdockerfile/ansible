@@ -8,10 +8,10 @@
 #!/bin/bash
 
 # 设置别名
-alias ansible="docker run -ti --rm -v ~/.ssh:/root/.ssh -v ~/.aws:/root/.aws -v /data/app/ansible:/apps -w /apps muen/ansible ansible"
+alias ansible="docker run -ti --rm -v ~/.ssh:/root/.ssh -v ~/.aws:/root/.aws -v /data/app/ansible:/apps -w /apps buyfakett/ansible ansible"
 
 # 设置别名
-alias ansible-playbook=" docker run -ti --rm -v ~/.ssh:/root/.ssh -v ~/.aws:/root/.aws -v /data/app/ansible:/apps -w /apps muen/ansible ansible-playbook"
+alias ansible-playbook=" docker run -ti --rm -v ~/.ssh:/root/.ssh -v ~/.aws:/root/.aws -v /data/app/ansible:/apps -w /apps buyfakett/ansible ansible-playbook"
 ```
 
 ## 注意
